@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.father{
+    background-color: #ddd;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* form style  */
+.log-form {
+    background-color: #ccc;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px black;
+}
+.log-form .form-input{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    transition: all .5s ease-in-out;
+
+}
+.form-button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.01);
+}
+/* list style */
+.first-ol{
+    background-color: #ccc;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 2px 10px 50px;
+}
+.first-ol li{
+    margin: 5px 0;
+}
+.list-button{
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    transition: all .5s ease-in-out;
+}
+.list-button:hover{
+    background-color: rgb(29, 29, 57);
+    color: white;
+    transform: scale(1.01);
+}
+/* table style  */
+.log-table{
+    width: 100%;
+    background-color: #ccc;
+    text-align: center;
+    border:none;
+    
+}
+.log-table th{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+.table-button{
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    transition: all .5s ease-in-out;
+}
+.table-button:hover{
+    background-color: rgb(86, 86, 221);
+    color: white;
+    transform: scale(1.01);
+}

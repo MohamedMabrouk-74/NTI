@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <title>Task 3</title>
+</head>
+
+<body class=" p-3 bg-warning-subtle ">
+    <div class="container">
+        <div class=" row d-flex justify-content-center">
+            <div class="col-6">
+                <table class="table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">----</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mohamed</td>
+                            <td>opi</td>
+                            <td>@md</td>
+                        </tr>
+                        <tr class="table-light">
+                            <th scope="row">2</th>
+                            <td>Mahmoud</td>
+                            <td>Th</td>
+                            <td>@at</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Ahmed</td>
+                            <td>Dpo</td>
+                            <td>@sip</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="validationServer01" class="form-label">First name</label>
+                            <input type="text" class="form-control is-valid" id="validationServer01" value="Mohamed"
+                                required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="validationServer01" class="form-label">phone number</label>
+                            <input type="number" class="form-control is-valid" id="validationServer01" value="Mohamed"
+                                required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 ">
+                            <label for="validationServer03" class="form-label">City</label>
+                            <input type="text" class="form-control is-invalid" id="validationServer03"
+                                aria-describedby="validationServer03Feedback" required>
+                            <div id="validationServer03Feedback" class="invalid-feedback">
+                                Please city.
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-12">
+                            <button class="btn btn-denger w-100 mb-3 mt-3" type="submit">Submit</button>
+                        </div>
+                        <div class="col-12">
+                            <button type="button" class="btn btn-info w-100 mb-3 mt-3" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                More
+                            </button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">about me</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>I'm Mohamed farag.i'm form Elbehera. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

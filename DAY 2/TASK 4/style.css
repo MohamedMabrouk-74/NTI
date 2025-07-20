@@ -1,0 +1,25 @@
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 100px 0;
+            background-color: aqua;
+            min-height: 100vh;
+        }
+        table{
+            width: fit-content;
+            padding: 50px;
+            margin: 10px auto;
+            background-color: #ddd;
+        }
+        table tr td,table td th{
+            padding: 5px;
+            text-align: center;
+        }
+        .first-ol{
+            list-style-type: upper-alpha;
+        }
+        .first-ul{
+            list-style-type:georgian;
+        }
